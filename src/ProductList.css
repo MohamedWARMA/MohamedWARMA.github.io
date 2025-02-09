@@ -179,14 +179,17 @@ body {
     /* background-color: yellow; */
 }
 .plant_heading{
-    width: 400px;
+    width: 100%;
     text-align: center;
     margin: 20px;
+   justify-content: center;
+    display: flex;    
+}
+
+.plant_heading h3{
     border: 1px solid rgb(5, 4, 4);
     border-left: none;
     border-right: none;
-
-    
 }
 /* Add Media Query for responsiveness */
 @media (max-width: 768px) {
